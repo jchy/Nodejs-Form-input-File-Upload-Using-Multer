@@ -1,6 +1,6 @@
 const express = require('express');
 const postRoutes = express.Router();
-const validatePost = require("../utils/validate.post");
+const validatePost = require("../utils/validations/validate.post");
 const {getAllPosts, createNewPostWithSingleImage, createNewPostWithMultipleImages} = require("../controllers/post.controller")
 const upload = require("../utils/file-Uploads/file-Uploads");
 
